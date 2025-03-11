@@ -44,15 +44,13 @@ selenium-quiz-test/
 
 1. Cloner le dépôt :
 ```
-git clone https://github.com/username/selenium-quiz-test.git
+git clone https://github.com/LouisFloresQa/selenium-quiz-test-python.git
 cd selenium-quiz-test
 ```
 
 2. Créer et activer un environnement virtuel :
 ```
-python -m venv venv
-source venv/bin/activate  # Sous Linux/Mac
-venv\Scripts\activate     # Sous Windows
+python3 -m venv flfhighenv
 ```
 
 3. Installer les dépendances :
@@ -72,7 +70,7 @@ Les paramètres de configuration se trouvent dans le fichier `config.py` :
 
 Pour exécuter le test :
 ```
-pytest tests/test_quiz_validation.py -v
+./flfhighenv/bin/python -m pytest tests/test_quiz_validation.py -v```
 ```
 
 Pour générer un rapport HTML :
