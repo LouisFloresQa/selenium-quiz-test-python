@@ -1,0 +1,33 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Reports
+reports/
+*pytest_html_report.html
+.pytest_cache/
+
+# Chromedriver
+chromedriver.exe
+*.exe
+drivers/

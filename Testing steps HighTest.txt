@@ -1,0 +1,17 @@
+Testing steps:
+
+Se mettre dans le répertoire racine:
+cd selenium-quiz-test/
+
+Creer un environnement de tests:
+python3 -m venv flfhighenv
+
+Activer l'env de tests:
+source flfhighenv/bin/activate
+
+Installer les requirements
+pip install -r requirements.txt
+
+
+Lancer les tests
+./flfhighenv/bin/python -m pytest tests/test_quiz_validation.py -v
